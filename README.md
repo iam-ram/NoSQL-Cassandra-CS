@@ -2,10 +2,13 @@
 Steps to install Cassandra in Ubuntu
 
 1. Install Java Oracle Virtual Machine
+
   sudo add-apt-repository ppa:webupd8team/java
   sudo apt-get update
   sudo apt-get install oracle-java8-set-default
+  
 2. Install Cassandra
+
   echo "deb http://www.apache.org/dist/cassandra/debian 22x main" | sudo tee -a /etc/apt/sources.list.d/cassandra.sources.list
   echo "deb-src http://www.apache.org/dist/cassandra/debian 22x main" | sudo tee -a /etc/apt/sources.list.d/cassandra.sources.list
   
