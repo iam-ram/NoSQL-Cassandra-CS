@@ -1,5 +1,6 @@
 # NoSQL-Cassandra-CS
 Steps to install Cassandra in Ubuntu
+
 1. Install Java Oracle Virtual Machine
   sudo add-apt-repository ppa:webupd8team/java
   sudo apt-get update
