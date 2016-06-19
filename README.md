@@ -37,9 +37,11 @@ Steps to install Cassandra in Ubuntu
   
   sudo apt-get install cassandra
 
+  sudo service cassandra start
+  
 5. Check id Cassandra is installed and running
 
-  sudo service cassandra start
+  sudo service cassandra status
   
   NOTE - If Cassandra is not running, check init script and apply following fix
 
